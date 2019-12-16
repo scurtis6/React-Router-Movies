@@ -12,7 +12,8 @@ const App = () => {
   return (
     <div>
       <SavedList list={savedList} />
-      <div>Replace this Div with your Routes</div>
+      <Route exact path="/">MovieList</Route>
+      <Route exact path="/movies/:id"></Route>
     </div>
   );
 };
